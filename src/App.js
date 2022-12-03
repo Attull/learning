@@ -11,8 +11,8 @@ function App() {
  
   const [apiData, setApiData] =useState([]);
   const [searchValue, setSearchValue] = useState("")
-  const [ mealType, setMealType] = useState('')
-  const [ dietType, setDietType] = useState('')
+  const [ mealType, setMealType] = useState('breakfast')
+  const [ dietType, setDietType] = useState('balanced')
 
   const url = `https://api.edamam.com/search?q=${searchValue}&app_id=${YOUR_APP_ID}&app_key=${YOUR_APP_KEY}&from=0&to=20&calories=591-722&mealType=${mealType}&diet=${dietType}`
   // function sample(){
