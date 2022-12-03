@@ -3,7 +3,7 @@ import './App.css';
 import Axios from 'axios'
 import { YOUR_APP_ID, YOUR_APP_KEY  } from './constants';
 import Card from './Card';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './App.css'
 
 
@@ -23,6 +23,10 @@ function App() {
   //   setMealType('breakfast')
   //   console.log(mealType)
   // }
+
+  useEffect(()=>{
+   getReceipeInfo();
+  },[])
 
   const getReceipeInfo = async() =>{
     var result = await Axios.get(url);
