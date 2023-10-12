@@ -1,0 +1,21 @@
+.redColor{
+    color:red;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{
+    width:30%;
+    padding:10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card img{
+    height:200px;
+    width: 200px;
+}
