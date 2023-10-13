@@ -1,12 +1,12 @@
 .redColor{
-    color:red;
+    color:green;
 }
 
-.container{
+/* .container{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
+} */
 .card{
     width:30%;
     padding:10px;
@@ -20,6 +20,3 @@
     width: 200px;
 }
 
-h1{
-    color: red;
-}
